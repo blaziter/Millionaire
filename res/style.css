@@ -108,8 +108,8 @@ body {
         height: 32.5vh;
         grid-column: 1 / 1;
         grid-row: 3 / 3;
-        grid-template-columns: 27vh 2fr;
-        grid-template-rows: 24vw 2fr;
+        grid-template-columns: 50% 2fr;
+        grid-template-rows: 50% 2fr;
         gap: 5px 5px;
     }
     
@@ -166,8 +166,8 @@ body {
         height: 32.5vh;
         grid-column: 1 / 2;
         grid-row: 3 / 3;
-        grid-template-columns: 36vh 2fr;
-        grid-template-rows: 18vw 2fr;
+        grid-template-columns: 50% 2fr;
+        grid-template-rows: 50% 2fr;
         gap: 5px 5px;
     }
     
@@ -237,8 +237,8 @@ body {
         height: 32.5vh;
         grid-column: 1 / 2;
         grid-row: 3 / 3;
-        grid-template-columns: 102.62vh 2fr;
-        grid-template-rows: 7.5vw 2fr;
+        grid-template-columns: 50% 2fr;
+        grid-template-rows: 50% 2fr;
         gap: 5px 5px;
     }
     

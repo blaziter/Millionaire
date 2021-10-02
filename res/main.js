@@ -21,7 +21,7 @@ let questions = [
     ["Kdo je RATIRL?", "Člověk, který se proslavil svýma schopnostma hrát League of Legends.", "Nestabilní člověk v blázinci", "Krysa", "Potkan", false],
     ["Co nepatří mezi ovoce?", "Šiška", "Jablko", "Broskev", "Hruška", false],
     ["Jaký žánr má League of Legends?", "MOBA", "RPG", "MMORPG", "FPS", false],
-    ["Kdo je Geralt z Rivie?", "Postava ve hře Zaklínač", "Pasák", "Spasitel", "Démon", false],
+    ["Kdo je Geralt z Rivie?", "Postava z knižní série Zaklínač", "Pasák", "Spasitel", "Démon", false],
     ["Jak se řeknou slovensky játra?", "Pečeň", "Čučoriedka", "Rolka", "Smýkačka", false]
 ];
 
@@ -93,7 +93,7 @@ const load = () => {
     for (let i = 0; i < answer.length; i++) {
         genRan();
         answer[i].value = questions[x][answerArray[i]]; 
-        if (window.screen.width < 350) {
+        if (window.screen.width < 500) {
             answer[i].innerHTML = "<p>" + questions[x][answerArray[i]] + "</p>";
         } else {
             answer[i].innerHTML = "<h1>" + questions[x][answerArray[i]] + "</h1>";
