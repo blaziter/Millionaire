@@ -92,7 +92,7 @@ const load = () => {
 
     for (let i = 0; i < answer.length; i++) {
         genRan();
-        answer[i].value = questions[x][answerArray[i]];
+        answer[i].value = questions[x][answerArray[i]]; 
         if (window.screen.width < 350) {
             answer[i].innerHTML = "<p>" + questions[x][answerArray[i]] + "</p>";
         } else {
@@ -104,35 +104,19 @@ const load = () => {
 const submitAnswer = () => {
     switch (button) {
         case 0:
-            if (answer[0].value != questions[x][1]) {
-                wrongAnsFn();
-            } else {
-                correctAnsFn();
-            }
+            (answer[0].value != questions[x][1]) ? wrongAnsFn() : correctAnsFn();
             break;
 
         case 1:
-            if (answer[1].value != questions[x][1]) {
-                wrongAnsFn();
-            } else {
-                correctAnsFn();
-            }
+            (answer[1].value != questions[x][1]) ? wrongAnsFn() : correctAnsFn();
             break;
 
         case 2:
-            if (answer[2].value != questions[x][1]) {
-                wrongAnsFn();
-            } else {
-                correctAnsFn();
-            }
+            (answer[2].value != questions[x][1]) ? wrongAnsFn() : correctAnsFn();
             break;
 
         case 3:
-            if (answer[3].value != questions[x][1]) {
-                wrongAnsFn();
-            } else {
-                correctAnsFn();
-            }
+            (answer[3].value != questions[x][1]) ? wrongAnsFn() : correctAnsFn();
             break;
     }
 }
