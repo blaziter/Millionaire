@@ -93,7 +93,7 @@ const load = () => {
     for (let i = 0; i < answer.length; i++) {
         genRan();
         answer[i].value = questions[x][answerArray[i]]; 
-        if (window.screen.width < 500) {
+        if (window.screen.width < 750) {
             answer[i].innerHTML = "<p>" + questions[x][answerArray[i]] + "</p>";
         } else {
             answer[i].innerHTML = "<h1>" + questions[x][answerArray[i]] + "</h1>";
